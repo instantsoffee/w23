@@ -1,0 +1,119 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://instantsoffee.github.io/w23/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Public access image from the met and the internet archive",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Sophie"
+  }, {
+    "label" : "Date",
+    "value" : "2023-12-13"
+  } ],
+  "description" : [ {
+    "@value" : "A collection of random images from the met and the internet archive",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "(c) Sophie Hammer",
+  "sequences" : [ {
+    "@id" : "http://8a5079b4-1701-40a7-a71c-7a97a42b6435",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://4aea1676-ce86-4d60-af0d-67591457ce86",
+      "@type" : "sc:Canvas",
+      "label" : "rosetti",
+      "height" : 1925,
+      "width" : 1648,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b2f36db0-3c31-4bc6-a507-8eb6eba94a6c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://instantsoffee.github.io/w23/images/DP289717/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://instantsoffee.github.io/w23/images/DP289717",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1925,
+          "width" : 1648
+        },
+        "on" : "http://4aea1676-ce86-4d60-af0d-67591457ce86"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6",
+      "@type" : "sc:Canvas",
+      "label" : "van gogh",
+      "height" : 4000,
+      "width" : 3140,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b9883376-9ab7-417f-8d54-73f97d9828f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://instantsoffee.github.io/w23/images/DT365509/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://instantsoffee.github.io/w23/images/DT365509",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4000,
+          "width" : 3140
+        },
+        "on" : "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c4014755-e7c5-4bee-bc06-9057a1d418a5",
+      "@type" : "sc:Canvas",
+      "label" : "cats from i archive",
+      "height" : 560,
+      "width" : 1440,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a61cc236-c846-423d-b178-f04477f998e6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/hero-pedigree-cats/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/hero-pedigree-cats",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 560,
+          "width" : 1440
+        },
+        "on" : "http://c4014755-e7c5-4bee-bc06-9057a1d418a5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://4aea1676-ce86-4d60-af0d-67591457ce86", "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6", "http://c4014755-e7c5-4bee-bc06-9057a1d418a5" ]
+  } ]
+}
