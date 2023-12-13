@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 116,
+    "height" : 77
+  }, {
+    "width" : 232,
+    "height" : 154
+  }, {
+    "width" : 463,
+    "height" : 307
+  }, {
+    "width" : 926,
+    "height" : 613
+  }, {
+    "width" : 1852,
+    "height" : 1226
+  }, {
+    "width" : 3703,
+    "height" : 2451
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3703,
+  "@id" : "https://instantsoffee.github.io/w23/images/DP873916",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2451
+}
