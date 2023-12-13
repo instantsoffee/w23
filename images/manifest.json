@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1648,
+    "id" : "https://instantsoffee.github.io/w23/images/DP289717/canvas/",
+    "label" : {
+      "none" : [ "DP289717" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://instantsoffee.github.io/w23/images/DP289717/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://instantsoffee.github.io/w23/images/DP289717/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 52,
+              "height" : 61
+            }, {
+              "width" : 103,
+              "height" : 121
+            }, {
+              "width" : 206,
+              "height" : 241
+            }, {
+              "width" : 412,
+              "height" : 482
+            }, {
+              "width" : 824,
+              "height" : 963
+            }, {
+              "width" : 1648,
+              "height" : 1925
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1648,
+            "@id" : "https://instantsoffee.github.io/w23/images/DP289717",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1925
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1648,
+          "id" : "https://instantsoffee.github.io/w23/images/DP289717/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1925
+        },
+        "target" : "https://instantsoffee.github.io/w23/images/DP289717/canvas/"
+      } ]
+    } ],
+    "height" : 1925
+  }, {
     "width" : 3140,
     "id" : "https://instantsoffee.github.io/w23/images/DT365509/canvas/",
     "label" : {
