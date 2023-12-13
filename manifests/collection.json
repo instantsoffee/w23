@@ -1,0 +1,13 @@
+{
+  "id" : "https://instantsoffee.github.io/w23/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in instantsoffee/w23 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://instantsoffee.github.io/w23/manifests/manifest2.json",
+    "label" : "Public access image from the met and the internet archive"
+  } ]
+}
