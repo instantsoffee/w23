@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://instantsoffee.github.io/w23/manifests/manifest2.json",
     "label" : "Public access image from the met and the internet archive"
+  }, {
+    "id" : "https://instantsoffee.github.io/w23/manifests/manifest3.json",
+    "label" : {
+      "en" : [ "images from met and i archive" ]
+    },
+    "type" : "Manifest"
   } ]
 }
