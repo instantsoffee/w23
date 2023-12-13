@@ -179,5 +179,32 @@
         }
       } ]
     } ]
+  }, {
+    "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80",
+    "type" : "Canvas",
+    "height" : 640,
+    "width" : 640,
+    "duration" : 54.218594,
+    "label" : {
+      "en" : [ "internet cats" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80/annotation-page/6d5efb27-f6ec-45a3-a11d-d8f5d02a0344",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/annotation/2d166a30-50b4-450a-8083-c68d30c1948a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80",
+        "body" : {
+          "id" : "https://ia801003.us.archive.org/9/items/twitter-1407319283122671621/1407319283122671621.mp4",
+          "type" : "Video",
+          "format" : "video/mp4",
+          "height" : 640,
+          "width" : 640,
+          "duration" : 54.218594
+        }
+      } ]
+    } ]
   } ]
 }
