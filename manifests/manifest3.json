@@ -1,210 +1,124 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://instantsoffee.github.io/w23/manifests/manifest3.json",
-  "type" : "Manifest",
-  "label" : {
-    "en" : [ "images from met and i archive" ]
-  },
-  "items" : [ {
-    "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/d10d90ff-163e-4c6f-8666-41e581c14f02",
-    "type" : "Canvas",
-    "height" : 1925,
-    "width" : 1648,
-    "label" : {
-      "en" : [ "rosetti" ]
-    },
-    "items" : [ {
-      "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/d10d90ff-163e-4c6f-8666-41e581c14f02/annotation-page/c7d16a6c-2fa1-466d-9304-396d109a8817",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/annotation/6bfb0545-3f03-4324-9d34-1460de45302c",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/d10d90ff-163e-4c6f-8666-41e581c14f02",
-        "body" : {
-          "id" : "https://instantsoffee.github.io/w23/images/DP289717/full/max/0/default.jpg",
-          "type" : "Image",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://instantsoffee.github.io/w23/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Public access image from the met and the internet archive",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Sophie"
+  }, {
+    "label" : "Date",
+    "value" : "2023-12-13"
+  } ],
+  "description" : [ {
+    "@value" : "A collection of random images from the met and the internet archive",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "(c) Sophie Hammer",
+  "sequences" : [ {
+    "@id" : "http://8a5079b4-1701-40a7-a71c-7a97a42b6435",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://4aea1676-ce86-4d60-af0d-67591457ce86",
+      "@type" : "sc:Canvas",
+      "label" : "rosetti",
+      "height" : 1925,
+      "width" : 1648,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b2f36db0-3c31-4bc6-a507-8eb6eba94a6c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://instantsoffee.github.io/w23/images/DP289717/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
           "format" : "image/jpeg",
-          "height" : 1925,
-          "width" : 1648,
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 52,
-              "height" : 61
-            }, {
-              "width" : 103,
-              "height" : 121
-            }, {
-              "width" : 206,
-              "height" : 241
-            }, {
-              "width" : 412,
-              "height" : 482
-            }, {
-              "width" : 824,
-              "height" : 963
-            }, {
-              "width" : 1648,
-              "height" : 1925
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 1648,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://instantsoffee.github.io/w23/images/DP289717",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 1925,
-            "id" : "https://instantsoffee.github.io/w23/images/DP289717"
-          } ]
-        }
-      } ]
-    } ]
-  }, {
-    "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/c40cd89b-755f-4036-86c6-50e520ce06ee",
-    "type" : "Canvas",
-    "height" : 4000,
-    "width" : 3140,
-    "label" : {
-      "en" : [ "van gogh" ]
-    },
-    "items" : [ {
-      "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/c40cd89b-755f-4036-86c6-50e520ce06ee/annotation-page/69a6c76b-42dc-455d-b3b7-efc690735b77",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/annotation/df4d8ef9-ca13-4fcc-b2a9-398ad4a9a57a",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/c40cd89b-755f-4036-86c6-50e520ce06ee",
-        "body" : {
-          "id" : "https://instantsoffee.github.io/w23/images/DT365509/full/max/0/default.jpg",
-          "type" : "Image",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1925,
+          "width" : 1648
+        },
+        "on" : "http://4aea1676-ce86-4d60-af0d-67591457ce86"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://instantsoffee.github.io/w23/annotations/f749872c89d95515557ac8946ad5861b.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6",
+      "@type" : "sc:Canvas",
+      "label" : "van gogh",
+      "height" : 4000,
+      "width" : 3140,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b9883376-9ab7-417f-8d54-73f97d9828f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://instantsoffee.github.io/w23/images/DT365509/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
           "format" : "image/jpeg",
-          "height" : 4000,
-          "width" : 3140,
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 99,
-              "height" : 125
-            }, {
-              "width" : 197,
-              "height" : 250
-            }, {
-              "width" : 393,
-              "height" : 500
-            }, {
-              "width" : 785,
-              "height" : 1000
-            }, {
-              "width" : 1570,
-              "height" : 2000
-            }, {
-              "width" : 3140,
-              "height" : 4000
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3140,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://instantsoffee.github.io/w23/images/DT365509",
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 4000,
-            "id" : "https://instantsoffee.github.io/w23/images/DT365509"
-          } ]
-        }
-      } ]
-    } ]
-  }, {
-    "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/477136da-3fd1-4ea0-ba40-2290b32974be",
-    "type" : "Canvas",
-    "height" : 2451,
-    "width" : 3703,
-    "label" : {
-      "en" : [ "sailors" ]
-    },
-    "items" : [ {
-      "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/477136da-3fd1-4ea0-ba40-2290b32974be/annotation-page/28271485-0a36-4eb2-9a2f-5b9d1b967640",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/annotation/e9569392-ec51-4eb1-be1f-a57bc00ad263",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/477136da-3fd1-4ea0-ba40-2290b32974be",
-        "body" : {
-          "id" : "https://instantsoffee.github.io/w23/images/DP873916/full/max/0/default.jpg",
-          "type" : "Image",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4000,
+          "width" : 3140
+        },
+        "on" : "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c4014755-e7c5-4bee-bc06-9057a1d418a5",
+      "@type" : "sc:Canvas",
+      "label" : "cats from i archive",
+      "height" : 560,
+      "width" : 1440,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a61cc236-c846-423d-b178-f04477f998e6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/hero-pedigree-cats/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
           "format" : "image/jpeg",
-          "height" : 2451,
-          "width" : 3703,
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 116,
-              "height" : 77
-            }, {
-              "width" : 232,
-              "height" : 154
-            }, {
-              "width" : 463,
-              "height" : 307
-            }, {
-              "width" : 926,
-              "height" : 613
-            }, {
-              "width" : 1852,
-              "height" : 1226
-            }, {
-              "width" : 3703,
-              "height" : 2451
-            } ],
-            "profile" : "http://iiif.io/api/image/2/level0.json",
-            "width" : 3703,
-            "@id" : "https://instantsoffee.github.io/w23/images/DP873916",
+          "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "height" : 2451,
-            "id" : "https://instantsoffee.github.io/w23/images/DP873916"
-          } ]
-        }
-      } ]
+            "@id" : "https://iiif.archivelab.org/iiif/hero-pedigree-cats",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 560,
+          "width" : 1440
+        },
+        "on" : "http://c4014755-e7c5-4bee-bc06-9057a1d418a5"
+      } ],
+      "related" : ""
     } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
   }, {
-    "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80",
-    "type" : "Canvas",
-    "height" : 640,
-    "width" : 640,
-    "duration" : 54.218594,
-    "label" : {
-      "en" : [ "internet cats" ]
-    },
-    "items" : [ {
-      "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80/annotation-page/6d5efb27-f6ec-45a3-a11d-d8f5d02a0344",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/annotation/2d166a30-50b4-450a-8083-c68d30c1948a",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "target" : "https://example.org/7321375f-e6e8-4bc9-835c-03543212f96d/canvas/b8a26efb-ae5b-46aa-847b-7e0999b09d80",
-        "body" : {
-          "id" : "https://ia801003.us.archive.org/9/items/twitter-1407319283122671621/1407319283122671621.mp4",
-          "type" : "Video",
-          "format" : "video/mp4",
-          "height" : 640,
-          "width" : 640,
-          "duration" : 54.218594
-        }
-      } ]
-    } ]
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://4aea1676-ce86-4d60-af0d-67591457ce86", "http://f8f3e916-979b-4485-bc23-2dfab1b8b9c6", "http://c4014755-e7c5-4bee-bc06-9057a1d418a5" ]
   } ]
 }
