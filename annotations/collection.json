@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://instantsoffee.github.io/w23/annotations/f749872c89d95515557ac8946ad5861b.json" ],
+  "@id" : "https://instantsoffee.github.io/w23/annotations/collection.json",
+  "label" : "All annotations loaded in instantsoffee/w23 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
