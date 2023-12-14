@@ -1,0 +1,76 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "body parts",
+      "@type" : "oa:Tag",
+      "chars" : "body parts"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "This is the eye.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This is the<strong> eye.</strong></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/33328689",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T11:59:45",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702555183741",
+    "dcterms:modified" : "2023-12-14T11:59:45",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://instantsoffee.github.io/w23/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=962,360,120,106"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M962.30612,359.9898h59.92857v0h59.92857v52.91327v52.91327h-59.92857h-59.92857v-52.91327z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_bb9b68e0-5a33-412a-bc26-e45a71682f54\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://4aea1676-ce86-4d60-af0d-67591457ce86"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "hand",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>hand</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/33328689",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T11:59:58",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702555198675",
+    "dcterms:modified" : "2023-12-14T11:59:58",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://instantsoffee.github.io/w23/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=484,530,262,294"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M483.86224,529.7602h130.78316v0h130.78316v146.91837v146.91837h-130.78316h-130.78316v-146.91837z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_012d9b5f-d0c9-4cb7-a212-757ddf1bddd8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://4aea1676-ce86-4d60-af0d-67591457ce86"
+    } ]
+  } ],
+  "@id" : "https://instantsoffee.github.io/w23/annotations/f749872c89d95515557ac8946ad5861b.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
